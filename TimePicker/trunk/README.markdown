@@ -1,7 +1,7 @@
 TimePicker Cocoa View
 =====================
 
-This project is an attempt to implement [David Cristian](http://dribbble.com/iamdavid)'s [Hour Picker](http://dribbble.com/shots/380911-Hour-Picker) UI design as a Cocoa View.  Here is how David's UI mockup appears:
+This project is an attempt to implement [David Cristian](http://dribbble.com/iamdavid)'s [Hour Picker](http://dribbble.com/shots/380911-Hour-Picker) UI design (which I found via the [UI parade site](http://www.uiparade.com/)) as a Cocoa View.  Here is how David's UI mockup appears:
 
 ![Hour Picker](http://dribbble.com/system/users/2555/screenshots/380911/hourpicker.png?1326280179)
 
