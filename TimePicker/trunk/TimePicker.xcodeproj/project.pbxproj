@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51B5D6414CE19C70019555A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51B5D6314CE19C70019555A /* Cocoa.framework */; };
+		A51B5D6E14CE19C70019555A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A51B5D6C14CE19C70019555A /* InfoPlist.strings */; };
+		A51B5D7014CE19C70019555A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A51B5D6F14CE19C70019555A /* main.m */; };
+		A51B5D7414CE19C70019555A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A51B5D7214CE19C70019555A /* Credits.rtf */; };
+		A51B5D7714CE19C70019555A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A51B5D7614CE19C70019555A /* AppDelegate.m */; };
+		A51B5D7A14CE19C70019555A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A51B5D7814CE19C70019555A /* MainMenu.xib */; };
+		A51B5D8214CE19F50019555A /* TimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A51B5D8114CE19F50019555A /* TimePickerView.m */; };
+		A51B5D8A14CE1E8D0019555A /* Header.png in Resources */ = {isa = PBXBuildFile; fileRef = A51B5D8614CE1E8D0019555A /* Header.png */; };
+		A51B5D8E14CE37270019555A /* BGPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = A51B5D8D14CE37270019555A /* BGPattern.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A51B5D5F14CE19C70019555A /* TimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51B5D6314CE19C70019555A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A51B5D6614CE19C70019555A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A51B5D6714CE19C70019555A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A51B5D6814CE19C70019555A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A51B5D6B14CE19C70019555A /* TimePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimePicker-Info.plist"; sourceTree = "<group>"; };
+		A51B5D6D14CE19C70019555A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A51B5D6F14CE19C70019555A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A51B5D7114CE19C70019555A /* TimePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimePicker-Prefix.pch"; sourceTree = "<group>"; };
+		A51B5D7314CE19C70019555A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A51B5D7514CE19C70019555A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A51B5D7614CE19C70019555A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A51B5D7914CE19C70019555A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A51B5D8014CE19F50019555A /* TimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePickerView.h; sourceTree = "<group>"; };
+		A51B5D8114CE19F50019555A /* TimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePickerView.m; sourceTree = "<group>"; };
+		A51B5D8614CE1E8D0019555A /* Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header.png; sourceTree = "<group>"; };
+		A51B5D8D14CE37270019555A /* BGPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGPattern.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A51B5D5C14CE19C70019555A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51B5D6414CE19C70019555A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A51B5D5414CE19C60019555A = {
+			isa = PBXGroup;
+			children = (
+				A51B5D6914CE19C70019555A /* TimePicker */,
+				A51B5D6214CE19C70019555A /* Frameworks */,
+				A51B5D6014CE19C70019555A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A51B5D6014CE19C70019555A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A51B5D5F14CE19C70019555A /* TimePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51B5D6214CE19C70019555A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51B5D6314CE19C70019555A /* Cocoa.framework */,
+				A51B5D6514CE19C70019555A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A51B5D6514CE19C70019555A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51B5D6614CE19C70019555A /* AppKit.framework */,
+				A51B5D6714CE19C70019555A /* CoreData.framework */,
+				A51B5D6814CE19C70019555A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A51B5D6914CE19C70019555A /* TimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A51B5D7514CE19C70019555A /* AppDelegate.h */,
+				A51B5D7614CE19C70019555A /* AppDelegate.m */,
+				A51B5D8014CE19F50019555A /* TimePickerView.h */,
+				A51B5D8114CE19F50019555A /* TimePickerView.m */,
+				A51B5D8D14CE37270019555A /* BGPattern.png */,
+				A51B5D8614CE1E8D0019555A /* Header.png */,
+				A51B5D7814CE19C70019555A /* MainMenu.xib */,
+				A51B5D6A14CE19C70019555A /* Supporting Files */,
+			);
+			path = TimePicker;
+			sourceTree = "<group>";
+		};
+		A51B5D6A14CE19C70019555A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A51B5D6B14CE19C70019555A /* TimePicker-Info.plist */,
+				A51B5D6C14CE19C70019555A /* InfoPlist.strings */,
+				A51B5D6F14CE19C70019555A /* main.m */,
+				A51B5D7114CE19C70019555A /* TimePicker-Prefix.pch */,
+				A51B5D7214CE19C70019555A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A51B5D5E14CE19C70019555A /* TimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51B5D7D14CE19C70019555A /* Build configuration list for PBXNativeTarget "TimePicker" */;
+			buildPhases = (
+				A51B5D5B14CE19C70019555A /* Sources */,
+				A51B5D5C14CE19C70019555A /* Frameworks */,
+				A51B5D5D14CE19C70019555A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimePicker;
+			productName = TimePicker;
+			productReference = A51B5D5F14CE19C70019555A /* TimePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51B5D5614CE19C60019555A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Late Night Software Ltd.";
+			};
+			buildConfigurationList = A51B5D5914CE19C60019555A /* Build configuration list for PBXProject "TimePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A51B5D5414CE19C60019555A;
+			productRefGroup = A51B5D6014CE19C70019555A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A51B5D5E14CE19C70019555A /* TimePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A51B5D5D14CE19C70019555A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51B5D6E14CE19C70019555A /* InfoPlist.strings in Resources */,
+				A51B5D7414CE19C70019555A /* Credits.rtf in Resources */,
+				A51B5D7A14CE19C70019555A /* MainMenu.xib in Resources */,
+				A51B5D8A14CE1E8D0019555A /* Header.png in Resources */,
+				A51B5D8E14CE37270019555A /* BGPattern.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A51B5D5B14CE19C70019555A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51B5D7014CE19C70019555A /* main.m in Sources */,
+				A51B5D7714CE19C70019555A /* AppDelegate.m in Sources */,
+				A51B5D8214CE19F50019555A /* TimePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A51B5D6C14CE19C70019555A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51B5D6D14CE19C70019555A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A51B5D7214CE19C70019555A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51B5D7314CE19C70019555A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A51B5D7814CE19C70019555A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51B5D7914CE19C70019555A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A51B5D7B14CE19C70019555A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A51B5D7C14CE19C70019555A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A51B5D7E14CE19C70019555A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimePicker/TimePicker-Prefix.pch";
+				INFOPLIST_FILE = "TimePicker/TimePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A51B5D7F14CE19C70019555A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimePicker/TimePicker-Prefix.pch";
+				INFOPLIST_FILE = "TimePicker/TimePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A51B5D5914CE19C60019555A /* Build configuration list for PBXProject "TimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51B5D7B14CE19C70019555A /* Debug */,
+				A51B5D7C14CE19C70019555A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51B5D7D14CE19C70019555A /* Build configuration list for PBXNativeTarget "TimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51B5D7E14CE19C70019555A /* Debug */,
+				A51B5D7F14CE19C70019555A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A51B5D5614CE19C60019555A /* Project object */;
+}
